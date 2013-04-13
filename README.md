@@ -3,6 +3,10 @@ pig-samples
 
 Collection of Pig scripts that I use for my talks and workshops about Pig and Hadoop.
 
+## Slides
+
+You can find the slides that I used from my [slideshare account](http://www.slideshare.net/Sudar/pig-workshop). You can also checkout, some of my [other talks](http://sudarmuthu.com/my-talks) as well.
+
 ## File list
 
 ### Pig files

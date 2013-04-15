@@ -1,5 +1,5 @@
 /**
- * 
+ * An Eval UDF function to get the twitter names in a tweet
  */
 package com.sudarmuthu.pig.udf;
 
@@ -19,8 +19,9 @@ import org.apache.pig.impl.logicalLayer.FrontendException;
 import org.apache.pig.impl.logicalLayer.schema.Schema;
 
 /**
- * @author sudarm
- *
+ * An Eval UDF function to get the twitter names in a tweet
+ * 
+ * @author Sudar (http://sudarmuthu.com)
  */
 public class GetTwitterNames extends EvalFunc<DataBag> {
 
@@ -88,5 +89,4 @@ public class GetTwitterNames extends EvalFunc<DataBag> {
     private boolean isTwitterName(String text) {
         return text.contains("@");
     }
-
 }

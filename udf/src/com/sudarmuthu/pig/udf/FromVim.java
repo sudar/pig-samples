@@ -1,5 +1,5 @@
 /**
- * 
+ * A filter UDF function
  */
 package com.sudarmuthu.pig.udf;
 
@@ -16,8 +16,9 @@ import org.apache.pig.impl.logicalLayer.FrontendException;
 import org.apache.pig.impl.logicalLayer.schema.Schema;
 
 /**
- * @author sudarm
- *
+ * A filter UDF function
+ * 
+ * @author Sudar (http://sudarmuthu.com)
  */
 public class FromVim extends FilterFunc {
 

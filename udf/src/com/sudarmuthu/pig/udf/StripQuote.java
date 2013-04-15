@@ -1,5 +1,5 @@
 /**
- * 
+ * An Eval UDF function that strips quote from strings
  */
 package com.sudarmuthu.pig.udf;
 

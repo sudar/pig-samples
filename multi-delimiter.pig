@@ -1,6 +1,6 @@
 -- File: multi-delimiter.pig
--- Sudar, 2013-04-12
--- Description: Explain how to use multiple delimiters
+-- Sudar, 2013-04-29
+-- Description: Explain how to load data using multiple delimiters
 
 outerbag = LOAD 'data/multi-delimiter.txt' USING PigStorage('\t') AS (f1, f2);
 

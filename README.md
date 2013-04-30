@@ -14,6 +14,7 @@ You can find the slides that I used from my [slideshare account](http://www.slid
 The following are the pig files that are present in this repository.
 
 - load-store.pig - Load and store example
+- multi-delimiter.pig - Explain how to load data using multiple delimiters
 - data-bag.pig - Explain the bag data structure
 - lookup.pig - Explains how to lookup to a particular column in a relation
 - group-by.pig - Explains how group up operator works
@@ -48,6 +49,7 @@ The /data directory contains the data files that are used by these samples. The 
 - data-bag.txt - A simple data file to explain bag data type
 - nested-schema.txt - A simple data file to explain nested data schemas
 - simple-tuples - A simple data file to explain simple tuples
+- multi-delimiter.txt - A simple data file that contains data that have multiple delimiters
 
 ### other files
 
